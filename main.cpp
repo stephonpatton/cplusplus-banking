@@ -1,7 +1,7 @@
 #include <iostream>
-#include "login.h++"
-#include "Employee.h++"
-#include "UIHandler.h++"
+#include "util/login.h++"
+#include "Users/Employee.h++"
+#include "UI/UIHandler.h++"
 
 using namespace std;
 int main() {
