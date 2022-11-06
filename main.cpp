@@ -1,12 +1,12 @@
 #include <iostream>
 #include "login.h++"
 #include "Employee.h++"
+#include "UIHandler.h++"
 
 using namespace std;
 int main() {
-    Employee e = *new Employee();
-    e.setAlias("stephonpatton");
-    cout << "Username: " << e.getAlias() << endl;
-    loginUser("stephonpatton", "1231281");
+    int option = printMainUI();
+    handleOption(option);
+//    TODO: Create customer screen and handle different parts of that
     return 0;
 }

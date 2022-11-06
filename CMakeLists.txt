@@ -3,4 +3,4 @@ project(banking_system_2)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(banking_system_2 main.cpp login.h++ login.cpp Employee.cpp Employee.h++)
+add_executable(banking_system_2 main.cpp login.h++ login.cpp Employee.cpp Employee.h++ UIHandler.cpp UIHandler.h++ Customer.cpp Customer.h++)
